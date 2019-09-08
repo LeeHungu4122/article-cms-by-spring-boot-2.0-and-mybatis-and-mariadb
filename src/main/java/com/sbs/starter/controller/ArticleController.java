@@ -27,4 +27,9 @@ public class ArticleController {
 		
 		return "article/list";
 	}
+	
+	@RequestMapping("/article/add")
+	public String showAdd(Model aModel) {
+		return "article/add";
+	}
 }
