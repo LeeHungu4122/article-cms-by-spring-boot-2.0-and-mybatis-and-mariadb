@@ -22,5 +22,6 @@
 		</section>
 		<hr>
 	</c:forEach>
+	
 </body>
 </html>
