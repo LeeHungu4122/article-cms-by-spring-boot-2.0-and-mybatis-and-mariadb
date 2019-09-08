@@ -1,11 +1,7 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
     pageEncoding="UTF-8"%>
 <%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c"%>
-<%@ page import="java.util.*"%>
-<%@ page import="com.sbs.starter.dto.Article"%>
-<%
-List<Article> list = (List<Article>)request.getAttribute("list");
-%>
+
 <!DOCTYPE html>
 <html>
 <head>
