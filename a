@@ -1,0 +1,108 @@
+[33mcommit d9943fb8c82b2e9d42143115e76d566cc0c3964d[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m, [m[1;31morigin/master[m[33m)[m
+Author: LeeHungu4122 <ilopio@naver.com>
+Date:   Thu Sep 19 15:24:49 2019 +0900
+
+    게시물 추가 후 상세페이지로 이동되도록 설정. 상세페이지는 아직 없는 버전.
+
+[33mcommit df036546aa9c9e24b87f9bd938a7c100fec4f0fd[m
+Author: LeeHungu4122 <ilopio@naver.com>
+Date:   Thu Sep 19 15:11:26 2019 +0900
+
+    게시물 리스트에 게시물 총 개수 보이게 추가
+
+[33mcommit 8daf4b57f7fc4ccb0b0782a491e6abcc945e328c[m
+Author: LeeHungu4122 <ilopio@naver.com>
+Date:   Thu Sep 19 14:59:16 2019 +0900
+
+    list.jsp 에서 v2제거
+
+[33mcommit c47aef2310393a54a7c4041a9417530d7d48ebf7[m
+Author: LeeHungu4122 <ilopio@naver.com>
+Date:   Thu Sep 19 14:55:57 2019 +0900
+
+    CUtil 도입
+
+[33mcommit a0ad321242b389f052b39a4518e1ec856b49a6c2[m
+Merge: 4e40793 c11155d
+Author: LeeHungu4122 <ilopio@naver.com>
+Date:   Thu Sep 19 14:30:54 2019 +0900
+
+    충돌해결
+
+[33mcommit 4e40793c5e53e9f5d0e31161d56dfc8c80a58a9e[m
+Author: LeeHungu4122 <ilopio@naver.com>
+Date:   Thu Sep 19 13:30:33 2019 +0900
+
+    doAdd 서비스가 INSERT에 의해 자동으로 만들어진 id 값을 리턴하도록 처리
+
+[33mcommit e1409f0d751d13a818a66b36d589a1b67922767e[m
+Author: LeeHungu4122 <ilopio@naver.com>
+Date:   Mon Sep 9 12:19:55 2019 +0900
+
+    실험용
+
+[33mcommit c11155dffa5030d26fe2299a9894100a8a552847[m
+Author: LeeHungu4122 <ilopio@naver.com>
+Date:   Sun Sep 8 17:50:59 2019 +0900
+
+    doAdd 서비스 구현
+
+[33mcommit 6881464ade4c1ceab99914d5fac26bc60ace0f1d[m
+Author: LeeHungu4122 <ilopio@naver.com>
+Date:   Sun Sep 8 17:13:56 2019 +0900
+
+    add.jsp 생성 및 기본 작업
+
+[33mcommit f77d58d06852f9691a3425cce2404b930185fe52[m
+Author: LeeHungu4122 <ilopio@naver.com>
+Date:   Sun Sep 8 16:35:42 2019 +0900
+
+    ArticleDaoImpl을 제거하고 마이바티스가 대신 구현하도록 처리.(마이바티스는 데이터를 DB에서 가져옴, 이제 임시데이터 사용은 끝)]
+
+[33mcommit 996e2b4b7ea6773b1cb922eddc7022c8eee73fee[m
+Author: LeeHungu4122 <ilopio@naver.com>
+Date:   Sun Sep 8 16:24:39 2019 +0900
+
+    ArticleDao 생성 및 적용
+
+[33mcommit 30225b144de89a1c1c9c5cb2a6f9e13d789329aa[m
+Author: LeeHungu4122 <ilopio@naver.com>
+Date:   Sun Sep 8 16:13:52 2019 +0900
+
+    게시물 리스팅 중에서 자바버전을 제거
+
+[33mcommit 4d241549c889e47bb59d3c80f0a7eef86a34351c[m
+Author: LeeHungu4122 <ilopio@naver.com>
+Date:   Sun Sep 8 16:10:43 2019 +0900
+
+    게시물 리스트를 자바버전과 el, jstl 버전 2가지로 생성
+
+[33mcommit af27e2a8ea2a33d7f07dafafbfe20bb91b65bd63[m
+Author: LeeHungu4122 <ilopio@naver.com>
+Date:   Sun Sep 8 16:09:27 2019 +0900
+
+    게시물 리스트를 자바버전과 el, jstl 버전 2가지로 생성
+
+[33mcommit f89337ff49b6bc7e462b41c5050770d4ddd649c4[m
+Author: LeeHungu4122 <ilopio@naver.com>
+Date:   Sun Sep 8 15:51:32 2019 +0900
+
+    ArticleService, ArticleServiceImpl, ArticleDto 생성 및 세팅,getList() 함수를 구현(임시데이터로 리턴하도록 함.)
+
+[33mcommit 016baa23977bbbaf298b86d91048fd79e4ae9b7e[m
+Author: unknown <LeeHungu4122>
+Date:   Sat Sep 7 17:46:31 2019 +0900
+
+    articleService, articleServiceImple, ArticleDto 생성 및 세팅, getList() 함수를 구현(가짜 데이터로 리턴하도록 임시로 해놓은 버전)
+
+[33mcommit 74dbb76263a6f22672678b529d2e63bf5ddbb074[m
+Author: unknown <LeeHungu4122>
+Date:   Sat Sep 7 17:45:36 2019 +0900
+
+    article/list 로 접속하면 list.jsp 나오게 하기
+
+[33mcommit b5d8f0ff3aab445ba4bec8d0d4ef2d25159ed0eb[m
+Author: LeeHungu4122 <ilopio@naver.com>
+Date:   Sat Sep 7 16:47:40 2019 +0900
+
+    프로젝트 생성 및 기본적인 세팅 완료

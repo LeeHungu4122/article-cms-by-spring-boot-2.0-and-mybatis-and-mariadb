@@ -4,7 +4,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-<meta charset="UTF-8">
+<meta charset="UTF-8">    
 <title>커뮤니티 사이트 - 게시물 리스트</title>
 </head>
 <body>
@@ -16,5 +16,7 @@
 		<section>번호 : ${article.id}, 제목 : ${article.title}</section>
 		<hr>
 	</c:forEach>
+
+	<a href="./add">게시물 추가</a>
 </body>
 </html>

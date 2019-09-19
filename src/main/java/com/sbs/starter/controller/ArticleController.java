@@ -36,12 +36,12 @@ public class ArticleController {
 
 		StringBuilder sb = new StringBuilder();
 
-		sb.append("alert('"  + msg + "');");
+		sb.append("alert('" + msg + "');");
 		sb.append("location.replace('./detail?id=" + newId + "');");
 
 		sb.insert(0, "<script>");
 		sb.append("</script>");
-
+		
 		return sb.toString();
 	}
 }
