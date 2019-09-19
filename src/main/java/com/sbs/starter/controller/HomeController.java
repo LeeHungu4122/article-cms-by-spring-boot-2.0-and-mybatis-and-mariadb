@@ -9,6 +9,6 @@ public class HomeController {
 	@RequestMapping("/home/main")
 	@ResponseBody
 	public String showMain() {
-		return "실험이에요.";
+		return "메인화면 입니다.";
 	}
 }
