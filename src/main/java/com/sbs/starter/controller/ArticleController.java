@@ -19,23 +19,29 @@ public class ArticleController {
 	public String showList(Model aModel) {
 		List<Article> list = articleService.getList();
 		int totalCount = articleService.getTotalCount();
-		
 		aModel.addAttribute("list", list);
 		aModel.addAttribute("totalCount", totalCount);
-
 		return "article/list";
 	}
-	
 	@RequestMapping("/article/add")
 	public String showAdd() {
 		return "article/add";
 	}
-	
 	@RequestMapping("/article/doAdd")
 	@ResponseBody
 	public String doAdd(@RequestParam Map<String, Object> param) {
 		long newId = articleService.add(param);
 
-		return newId + "번 게시물이 추가되었습니다.";
+		String msg = newId + "번 게시물이 추가되었습니다.";
+
+		StringBuilder sb = new StringBuilder();
+
+		sb.append("alert('"  + msg + "');");
+		sb.append("location.replace('./detail?id=" + newId + "');");
+
+		sb.insert(0, "<script>");
+		sb.append("</script>");
+
+		return sb.toString();
 	}
 }
